@@ -1,0 +1,11 @@
+/.idea/
+/__pycache__/
+/logs/__pycache__/
+*.log
+*.db3
+*.db3-journal
+/client/__pycache__/
+/server/__pycache__/
+*.key
+/doc/build/
+/unit_tests/__pycache__/

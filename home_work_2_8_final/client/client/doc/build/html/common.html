@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Common package &#8212; документация Another one messenger beta 0.9</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="next" title="Logs package" href="logs.html" />
+    <link rel="prev" title="Launcher module" href="launcher.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="common-package">
+<h1>Common package<a class="headerlink" href="#common-package" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Пакет общих утилит, использующихся в разных модулях проекта.</p>
+<div class="section" id="module-common.decos">
+<span id="decos-py"></span><h2>Скрипт decos.py<a class="headerlink" href="#module-common.decos" title="Ссылка на этот заголовок">¶</a></h2>
+<dl class="function">
+<dt id="common.decos.log">
+<code class="sig-prename descclassname">common.decos.</code><code class="sig-name descname">log</code><span class="sig-paren">(</span><em class="sig-param">func_to_log</em><span class="sig-paren">)</span><a class="headerlink" href="#common.decos.log" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Декоратор, выполняющий логирование вызовов функций.
+Сохраняет события типа debug, содержащие
+информацию о имени вызываемой функиции, параметры с которыми
+вызывается функция, и модуль, вызывающий функцию.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="common.decos.login_required">
+<code class="sig-prename descclassname">common.decos.</code><code class="sig-name descname">login_required</code><span class="sig-paren">(</span><em class="sig-param">func</em><span class="sig-paren">)</span><a class="headerlink" href="#common.decos.login_required" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Декоратор, проверяющий, что клиент авторизован на сервере.
+Проверяет, что передаваемый объект сокета находится в
+списке авторизованных клиентов.
+За исключением передачи словаря-запроса
+на авторизацию. Если клиент не авторизован,
+генерирует исключение TypeError</p>
+</dd></dl>
+
+</div>
+<div class="section" id="descryptors-py">
+<h2>Скрипт descryptors.py<a class="headerlink" href="#descryptors-py" title="Ссылка на этот заголовок">¶</a></h2>
+<dl class="class">
+<dt id="common.descryptors.Port">
+<em class="property">class </em><code class="sig-prename descclassname">common.descryptors.</code><code class="sig-name descname">Port</code><a class="headerlink" href="#common.descryptors.Port" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Класс - дескриптор для номера порта.
+Позволяет использовать только порты с 1023 по 65536.
+При попытке установить неподходящий номер порта генерирует исключение.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="errors-py">
+<h2>Скрипт errors.py<a class="headerlink" href="#errors-py" title="Ссылка на этот заголовок">¶</a></h2>
+<dl class="class">
+<dt id="common.errors.ServerError">
+<em class="property">class </em><code class="sig-prename descclassname">common.errors.</code><code class="sig-name descname">ServerError</code><span class="sig-paren">(</span><em class="sig-param">text</em><span class="sig-paren">)</span><a class="headerlink" href="#common.errors.ServerError" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Класс - исключение, для обработки ошибок сервера.
+При генерации требует строку с описанием ошибки,
+полученную с сервера.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="metaclasses-py">
+<h2>Скрипт metaclasses.py<a class="headerlink" href="#metaclasses-py" title="Ссылка на этот заголовок">¶</a></h2>
+<dl class="class">
+<dt id="common.metaclasses.ServerMaker">
+<em class="property">class </em><code class="sig-prename descclassname">common.metaclasses.</code><code class="sig-name descname">ServerMaker</code><span class="sig-paren">(</span><em class="sig-param">clsname</em>, <em class="sig-param">bases</em>, <em class="sig-param">clsdict</em><span class="sig-paren">)</span><a class="headerlink" href="#common.metaclasses.ServerMaker" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Метакласс, проверяющий что в результирующем классе нет клиентских
+вызовов таких как: connect. Также проверяется, что серверный
+сокет является TCP и работает по IPv4 протоколу.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="common.metaclasses.ClientMaker">
+<em class="property">class </em><code class="sig-prename descclassname">common.metaclasses.</code><code class="sig-name descname">ClientMaker</code><span class="sig-paren">(</span><em class="sig-param">clsname</em>, <em class="sig-param">bases</em>, <em class="sig-param">clsdict</em><span class="sig-paren">)</span><a class="headerlink" href="#common.metaclasses.ClientMaker" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Метакласс, проверяющий что в результирующем классе нет серверных
+вызовов таких как: accept, listen. Также проверяется, что сокет не
+создаётся внутри конструктора класса.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="utils-py">
+<h2>Скрипт utils.py<a class="headerlink" href="#utils-py" title="Ссылка на этот заголовок">¶</a></h2>
+<p>common.utils. <strong>get_message</strong> (client)</p>
+<blockquote>
+<div><p>Функция приёма сообщений от удалённых компьютеров. Принимает сообщения JSON,
+декодирует полученное сообщение и проверяет что получен словарь.</p>
+</div></blockquote>
+<p>common.utils. <strong>send_message</strong> (sock, message)</p>
+<blockquote>
+<div><p>Функция отправки словарей через сокет. Кодирует словарь в формат JSON и отправляет через сокет.</p>
+</div></blockquote>
+</div>
+<div class="section" id="variables-py">
+<h2>Скрипт variables.py<a class="headerlink" href="#variables-py" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Содержит разные глобальные переменные проекта.</p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Another one messenger</a></h1>
+
+
+
+
+
+
+
+
+<h3>Навигация</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="launcher.html">Launcher module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Common package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-common.decos">Скрипт decos.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#descryptors-py">Скрипт descryptors.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errors-py">Скрипт errors.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#metaclasses-py">Скрипт metaclasses.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#utils-py">Скрипт utils.py</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#variables-py">Скрипт variables.py</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="logs.html">Logs package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html">Client module documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="server.html">Server module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="launcher.html" title="предыдущая глава">Launcher module</a></li>
+      <li>Next: <a href="logs.html" title="следующая глава">Logs package</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Mikhail Pendyurin.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/common.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

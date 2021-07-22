@@ -1,0 +1,100 @@
+2020-11-20 00:02:11,533 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 00:53:10,740 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 00:56:12,851 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 00:58:15,495 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 00:59:34,172 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 01:14:37,752 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 02:05:17,478 DEBUG decors.py Была вызвана функция arg_parser из модуля __main__.
+2020-11-20 02:05:17,603 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-20 02:05:36,992 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57101)
+2020-11-20 02:05:36,992 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:05:36,992 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1605827136.9928248, 'user': {'account_name': 'asper'}}
+2020-11-20 02:05:37,290 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:05:37,790 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:05:37,790 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1605827137.2900343, 'account_name': 'asper'}
+2020-11-20 02:05:37,793 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:05:38,293 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:05:38,293 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1605827137.931488, 'user': 'asper'}
+2020-11-20 02:05:38,295 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:05:42,320 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:05:42,320 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1605827142.0860703, 'account_name': 'asper'}
+2020-11-20 02:05:42,445 INFO server.py Клиент asper корректно отключился от сервера.
+2020-11-20 02:07:38,523 DEBUG decors.py Была вызвана функция arg_parser из модуля __main__.
+2020-11-20 02:07:38,710 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-20 02:07:48,491 INFO server.py Установлено соедение с ПК ('127.0.0.1', 57870)
+2020-11-20 02:07:48,492 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:07:48,492 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1605827268.4910965, 'user': {'account_name': 'asper'}}
+2020-11-20 02:07:48,632 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:07:49,144 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:07:49,144 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1605827268.6321976, 'account_name': 'asper'}
+2020-11-20 02:07:49,146 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:07:49,646 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:07:49,646 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1605827269.2656448, 'user': 'asper'}
+2020-11-20 02:07:49,650 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:07:56,696 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:07:56,696 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1605827276.4929645, 'account_name': 'asper'}
+2020-11-20 02:07:56,836 INFO server.py Клиент asper корректно отключился от сервера.
+2020-11-20 02:11:05,452 DEBUG decors.py Была вызвана функция arg_parser из модуля __main__.
+2020-11-20 02:11:05,592 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-20 02:11:20,887 INFO server.py Установлено соедение с ПК ('127.0.0.1', 58942)
+2020-11-20 02:11:20,887 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:11:20,887 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1605827480.8873053, 'user': {'account_name': 'asper'}}
+2020-11-20 02:11:21,015 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:11:21,540 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:11:21,554 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1605827481.0154004, 'account_name': 'asper'}
+2020-11-20 02:11:21,557 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:11:22,070 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:11:22,070 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1605827481.7479138, 'user': 'asper'}
+2020-11-20 02:11:22,070 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:11:34,648 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:11:34,648 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1605827494.2110562, 'account_name': 'asper'}
+2020-11-20 02:11:34,773 INFO server.py Клиент asper корректно отключился от сервера.
+2020-11-20 02:14:03,380 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 02:14:03,552 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-20 02:14:16,750 INFO server.py Установлено соедение с ПК ('127.0.0.1', 59995)
+2020-11-20 02:14:17,252 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:14:17,252 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1605827656.7509925, 'user': {'account_name': 'asper'}}
+2020-11-20 02:14:17,501 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:14:18,001 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:14:18,001 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1605827657.5015233, 'account_name': 'asper'}
+2020-11-20 02:14:18,003 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:14:18,504 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:14:18,504 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1605827658.203018, 'user': 'asper'}
+2020-11-20 02:14:18,506 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:14:27,045 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:14:27,045 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1605827666.6549742, 'account_name': 'asper'}
+2020-11-20 02:14:27,446 INFO server.py Клиент asper корректно отключился от сервера.
+2020-11-20 02:17:34,832 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 02:17:35,065 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-20 02:18:13,478 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 02:18:13,619 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-20 02:22:40,151 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 02:22:40,318 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-20 02:22:52,515 INFO server.py Установлено соедение с ПК ('127.0.0.1', 64751)
+2020-11-20 02:22:52,515 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:22:52,516 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1605828172.5154192, 'user': {'account_name': 'asper'}}
+2020-11-20 02:22:52,642 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:22:53,172 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:22:53,172 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1605828172.6435099, 'account_name': 'asper'}
+2020-11-20 02:22:53,174 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:22:53,675 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:22:53,675 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1605828173.2979727, 'user': 'asper'}
+2020-11-20 02:22:53,679 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:23:05,224 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:23:05,224 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1605828184.9742842, 'account_name': 'asper'}
+2020-11-20 02:23:05,364 INFO server.py Клиент asper корректно отключился от сервера.
+2020-11-20 02:26:11,442 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-20 02:26:11,630 INFO server.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-20 02:26:59,759 INFO server.py Установлено соедение с ПК ('127.0.0.1', 49739)
+2020-11-20 02:26:59,759 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:26:59,759 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1605828419.759874, 'user': {'account_name': 'asper'}}
+2020-11-20 02:26:59,930 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:27:00,431 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:27:00,431 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1605828419.9319966, 'account_name': 'asper'}
+2020-11-20 02:27:00,432 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:27:00,932 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:27:00,932 DEBUG server.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1605828420.5744514, 'user': 'asper'}
+2020-11-20 02:27:00,934 DEBUG decors.py Была вызвана функция send_message из модуля common.utils.
+2020-11-20 02:27:02,991 DEBUG decors.py Была вызвана функция get_message из модуля common.utils.
+2020-11-20 02:27:02,991 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1605828422.2730293, 'account_name': 'asper'}
+2020-11-20 02:27:03,272 INFO server.py Клиент asper корректно отключился от сервера.

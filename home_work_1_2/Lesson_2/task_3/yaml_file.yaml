@@ -1,0 +1,10 @@
+dkt:
+  item1: 2500€
+  item2: 1200¥
+  item3: 7000$
+lst:
+- msg1
+- msg2
+- msg3
+- msg4
+num: 777

@@ -1,0 +1,36 @@
+2020-11-12 22:56:34,426 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-12 23:03:12,426 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-12 23:05:33,574 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-12 23:06:08,474 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-12 23:07:52,436 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-12 23:19:07,031 CRITICAL config_server_log.py Критическая ошибка
+2020-11-12 23:19:07,031 ERROR config_server_log.py Ошибка
+2020-11-12 23:19:07,031 DEBUG config_server_log.py Отладочная информация
+2020-11-12 23:19:07,031 INFO config_server_log.py Информационное сообщение
+2020-11-12 23:24:37,071 CRITICAL config_server_log.py Критическая ошибка
+2020-11-12 23:24:37,071 ERROR config_server_log.py Ошибка
+2020-11-12 23:24:37,072 INFO config_server_log.py Информационное сообщение
+2020-11-12 23:26:42,620 CRITICAL config_server_log.py Критическая ошибка
+2020-11-12 23:26:42,620 ERROR config_server_log.py Ошибка
+2020-11-12 23:26:42,620 INFO config_server_log.py Информационное сообщение
+2020-11-12 23:34:07,567 CRITICAL config_server_log.py Критическая ошибка
+2020-11-12 23:34:07,567 ERROR config_server_log.py Ошибка
+2020-11-12 23:34:07,567 INFO config_server_log.py Информационное сообщение
+2020-11-12 23:35:44,137 CRITICAL config_server_log.py Критическая ошибка
+2020-11-12 23:35:44,138 ERROR config_server_log.py Ошибка
+2020-11-12 23:35:44,138 INFO config_server_log.py Информационное сообщение
+2020-11-12 23:43:40,172 CRITICAL config_server_log.py Критическая ошибка
+2020-11-12 23:43:40,173 ERROR config_server_log.py Ошибка
+2020-11-12 23:43:40,173 INFO config_server_log.py Информационное сообщение
+2020-11-12 23:53:36,288 CRITICAL config_server_log.py Критическая ошибка
+2020-11-12 23:53:36,288 ERROR config_server_log.py Ошибка
+2020-11-12 23:53:36,288 DEBUG config_server_log.py Отладочная информация
+2020-11-12 23:53:36,288 INFO config_server_log.py Информационное сообщение
+2020-11-12 23:54:42,947 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-12 23:56:15,580 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-12 23:59:13,426 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-12 23:59:44,315 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-13 00:00:09,390 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-13 00:08:16,098 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-13 00:09:34,644 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
+2020-11-13 00:12:28,148 DEBUG decors.py Была вызвана функция createParser из модуля __main__.
